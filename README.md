@@ -2,18 +2,18 @@
 An open-source computational chemistry software package. This was developed as a side-project, and I have no current intentions to flesh it out. If you are interested in helping me with that, please let me know!!!
 
 # Currently Implemented
-Hartree-Fock/STO-3G energy calculations, for elements up to Helium
-Basis set read from file (as long as its STO-3G xD)
-Read from input files
+- Hartree-Fock/STO-3G energy calculations, for elements up to Helium
+- Basis set read from file (as long as its STO-3G xD)
+- Read from input files
 
 # Planned
-Finish periodic table for STO-3G
+### Finish periodic table for STO-3G
 - Properly implement spherical harmonics
-Implementation of other basis sets
+### Implementation of other basis sets
 - Loading from file 
 - Proper integrations
-Geometry optimization
-Vibrational analysis (IR)
+### Geometry optimization
+### Vibrational analysis (IR)
 
 # How to use
 `$ ./RustyChemistry input_file.txt [-v] [--verbose]`
