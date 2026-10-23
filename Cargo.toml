@@ -1,0 +1,15 @@
+[package]
+name = "RustyChemistry"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+integrate = "0.1"
+num-traits = "0.2.19"
+pow = "0.2.0"
+libm = "0.2.16"
+num = "0.4.3"
+ndarray = "0.17.2"
+ndarray-linalg = "0.18.1"
+openblas-src = "*"
+fast_inv_sqrt = "1.0.1"
